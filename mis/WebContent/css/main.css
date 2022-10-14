@@ -1,0 +1,142 @@
+@charset "UTF-8";
+#top {
+	width: 920px;
+	margin: 0 auto;
+	background-color: #0080c0;
+	border: 0;
+	color:#ffffff;
+	text-align: center;	
+	height:80px;
+	line-height: 80px;	
+}
+#main {
+	width: 920px;
+	height:525px;
+	margin: 0 auto;
+	background-color: #F5F7E6;	
+}
+#footer
+{
+	width: 920px;
+	margin: 0 auto;
+	background-color: #0080c0;
+	border: 0;
+	color:white;
+	text-align: center;	
+	height:60px;
+	line-height: 60px;	  
+}
+#leftMenu {
+	width: 150px;
+	height:520px;
+	float: left;
+	border-right: 2px solid #c0c0c0;
+}
+#content {
+	width: 766px;;
+	float: left;
+	height: 514px;
+	display: block;
+	padding: 10 0 0 0;;
+	line-height: 30px;
+	border: 0;
+	margin:0 auto;
+	background: #ffffff;
+	text-align: center;	
+	
+}
+
+ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+li
+{
+float:left;
+}
+
+a:hover {background-color:#804000}
+
+
+#leftMenu ul {
+	margin: 35px 10px;
+}
+
+#leftMenu ul li {
+	width: 100px;
+	height: 30px;
+	display: block;
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	border-bottom: 1px dotted #c0c0c0;
+}
+
+#leftMenu ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#leftMenu li:hover{
+	text-decoration:underline;
+	color:#ff0000;
+	background-image:url(../images/button02.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#enter{
+	width:500px;
+	font-size:12pt;
+	text-align:left;
+	/*border:1px solid #6699FF;*/
+	margin:10px auto;
+}
+
+#enter div{
+	border-bottom:1px dotted #6699FF;
+	margin:10px auto;
+	padding:0;
+	
+	
+}
+
+
+#enter label{
+    display:inline-block;
+	margin-left:110px;
+	width:80px;
+}
+
+#enter input,select{
+	width:190px;
+	font-size:12pt;
+	text-align:left;
+}
+
+#enter input:hover,select:hover {
+	background:#CCCCFF;
+}
+
+
+
+/*span提示信息*/
+#enter span {
+	margin-left:3px;
+}
+
+/*添加或取消按钮样式*/
+.addbt{
+	text-align:center;
+}
+
+.addbt input {
+	margin:15px 40px;
+}
